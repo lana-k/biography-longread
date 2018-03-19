@@ -1,0 +1,21 @@
+body {
+    font: 300 14px/23px "Open Sans",  "sans-serif";
+}
+
+img {
+    display: block;
+    width: 100%; 
+    position: fixed;
+    z-index:2;
+}
+
+div {
+    z-index:3;
+    position: relative;
+}
+
+.main {
+    background: white;
+    top: 100%;
+    padding-top: 50px;
+}
