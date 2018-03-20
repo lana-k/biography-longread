@@ -14,8 +14,62 @@ div {
     position: relative;
 }
 
+div.title {
+    z-index:2;
+    position: fixed;
+    width: 100%;
+}
+div.title:before {
+    content: "";
+	display: block;
+	padding-top: 75.6%;
+}
+
 .main {
     background: white;
     top: 100%;
     padding-top: 50px;
+}
+
+.inner-title {
+    z-index:2;
+    position: absolute;
+    top:25%;
+    left: 10%;
+    text-align: center;
+}
+
+.devider {
+    background-color: white;
+    height: 2px;
+    width:100px;
+    margin:10px auto;
+}
+
+h1 {
+    font: 400 50px/23px "Yeseva One",  "sans-serif";
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font: 400 27px/43px "Yeseva One",  "sans-serif";
+}
+
+h3 {
+    font: 400 18px/29px "Yeseva One",  "sans-serif";
+}
+
+q:before {
+    content:open-quote;
+}
+
+q:after {
+    content:close-quote;
+}
+q {
+    font: 400 18px/23px "Yeseva One",  "sans-serif";
+    font-style: italic;
+    color: white;
+    quotes: "\201c" "\201d"; 
 }
