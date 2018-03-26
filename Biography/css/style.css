@@ -2,17 +2,40 @@ body {
     font: 300 14px/23px "Open Sans",  "sans-serif";
 }
 
-img {
+div {
+    position: relative;
+}
+
+img.title-img {
     display: block;
     width: 100%; 
     position: fixed;
     z-index:2;
 }
 
-div {
+.main {
+    top: 100%;
     z-index:3;
-    position: relative;
 }
+
+img.chapter {
+    position: absolute;
+    display: block;
+    width: 100%; 
+    top:0;
+    
+}
+
+img.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.chapter-text {
+    background:white;
+    padding-top: 50px;
+}
+
 
 div.title {
     z-index:2;
@@ -25,35 +48,68 @@ div.title:before {
 	padding-top: 75.6%;
 }
 
-.main {
-    background: white;
-    top: 100%;
-    padding-top: 50px;
+div.chapter-head {
+    width: 100%;
+}
+div.chapter-head:before {
+    content: "";
+	display: block;
+	padding-top: 46%;
 }
 
+
+
 .inner-title {
-    z-index:2;
     position: absolute;
     top:25%;
     left: 10%;
     text-align: center;
 }
 
-.devider {
-    background-color: white;
-    height: 2px;
-    width:100px;
-    margin:10px auto;
+#inner-title-chapter1 {
+    top:25%;
+    left: 10%;
+}
+#inner-title-chapter2 {
+    top:25%;
+    left: 10%;
+}
+#inner-title-chapter3 {
+    top:40%;
+    left: 80%;
+}
+#inner-title-chapter4 {
+    top:40%;
+    left: 70%;
+}
+#inner-title-chapter5 {
+    top:25%;
+    left: 8%;
+}
+#inner-title-chapter6 {
+    top:30%;
+    left: 10%;
 }
 
+
+/*
+=============================================
+
+Typography
+
+=============================================
+*/
 h1 {
     font: 400 50px/23px "Yeseva One",  "sans-serif";
     color: white;
     letter-spacing: 0.1em;
+    text-shadow:  1px 1px 3px black;
 }
 
 h2 {
     font: 400 27px/43px "Yeseva One",  "sans-serif";
+    color: white;
+    text-shadow:  1px 1px 3px black;
 }
 
 h3 {
@@ -71,5 +127,14 @@ q {
     font: 400 18px/23px "Yeseva One",  "sans-serif";
     font-style: italic;
     color: white;
-    quotes: "\201c" "\201d"; 
+    quotes: "\201c" "\201d";
+    text-shadow:  1px 1px 3px black;    
+}
+
+.devider {
+    background-color: white;
+    height: 2px;
+    width:100px;
+    margin:10px auto;
+    box-shadow:1px 1px 3px black;
 }
