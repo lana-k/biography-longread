@@ -1,8 +1,12 @@
-# biograpy-longread
+# Biography longread
 
 ## Overview
 
 This is a study work for a typography video course by Sementiy Lobach. The task is to mark up an information you are interested (with pictures) as a longread. I used an article from Wikipedia about [J. K. Rowling].
+
+## How to see it in action
+
+Go to this link: https://lana-k.github.io/biography-longread/Biography/index.html
 
 ## Repository overview
 
