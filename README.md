@@ -6,7 +6,7 @@ This is a study work for a typography video course by Sementiy Lobach. The task 
 
 ## How to see it in action
 
-Follow this link: https://lana-k.github.io/biography-longread/Biography/index.html
+Follow this link: https://lana-k.github.io/biography-longread/Biography/index.html.
 
 ## Repository overview
 
